@@ -1,0 +1,62 @@
+.headerfasil{
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    margin-bottom: 20px;
+    margin-left: 250px;
+
+}
+
+.headerfasil-item img{
+    border-radius: 5px;
+}
+.headerfasil-info{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    flex: 2;
+}
+
+.headerFasilOp {
+    font-size: 18px;
+    background-color: #005dd6;
+    color: white;
+    width: max-content;
+    padding: 3px;
+    border-radius: 5px;
+}
+
+.headerFasilTitle{
+    font-size: 30px;
+    font-weight: bold;
+    color: #0071c2;
+}
+
+.headerfasilJenis{
+    font-size: 18px;
+}
+
+.headerfasilLok{
+    font-size: 16px;
+    color:grey;
+}
+.fasilinfo{
+    margin-left: 250px;
+    margin-right: 250px;
+
+}
+.fasilgrp{
+    margin-bottom: 20px;
+}
+
+.fasilTitle{
+    font-size: 18px;
+    font-weight: bold;
+}
+.jenislayananTitle h1{
+    font-size: 24px;
+    font-weight: bold;
+    margin-left: 250px;
+    margin-bottom: 20px;
+}

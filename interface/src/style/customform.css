@@ -1,0 +1,109 @@
+.headersign{
+    display: flex;
+    flex-direction: column;
+    margin-top: 0.5rem;
+    width: 100%;
+}
+.headersign h1{
+    font-size: 1.5rem; /* 24px */
+    line-height: 2rem; /* 32px */
+    font-weight: bolder;
+}
+
+.typeinput{
+    display:block;
+    font-size: 0.875rem; /* 14px */
+    line-height: 1.25rem; /* 20px */
+    font-size: medium;
+    text-transform: capitalize;
+    color: rgb(55 65 81);
+      
+}
+
+.formbody{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+.inputform{
+    display: block;
+    padding-left: 5px;
+    padding-right: 5px;
+    margin-top: 15px;
+    box-shadow: 0 1px 2px 0 rgb(0 0 0 / 0.05);
+    min-height: 40px;
+    border-width: 1px;
+    border-radius: 6px;
+    width: 960px;
+}
+
+.inputchoice{
+    display: block;
+    padding-left: 5px;
+    padding-right: 5px;
+    margin-top: 10px;
+    box-shadow: 0 1px 2px 0 rgb(0 0 0 / 0.05);
+    min-height: 40px;
+    border-width: 1px;
+    border-radius: 6px;
+    width: 625px;
+}
+
+.addbutton{
+    display: inline-flex;
+    background-color: rgb(0, 105, 251);
+    margin-top: 15px;
+    margin-left: 10px;
+    align-items: center;
+    padding: 12px;
+    font-size: 14px;
+    width: 60px;
+    height: 30px;
+    color: rgb(255 255 255);
+    border-radius: 5px;
+}
+
+.formlist{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 35px;
+}
+
+.clickbutton{
+    position:absolute;
+    display: flex;
+    justify-content: center;
+    left: 0px;
+    right: 0px;
+    bottom: 0px;
+}
+
+.clickbutton .button{
+    display: inline-flex;
+    background-color: rgb(31 41 55);
+    align-items: center;
+    padding: 12px;
+    font-size: 14px;
+    line-height: 25px; 
+    width: 150px;
+    height: 45px;
+    color: rgb(255 255 255);
+    border-radius: 5px;
+
+}
+
+.clickbutton .button:hover{
+    background-color: rgb(55 65 81);
+    color: rgb(255 255 255);
+}
+
+.clickbutton .button:focus{
+    background-color: rgb(31 41 55);
+    color: rgb(255 255 255);
+}
+
+.mydynamic{
+    height: "200vh";
+}

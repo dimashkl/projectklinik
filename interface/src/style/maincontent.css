@@ -1,0 +1,84 @@
+.allbgmain{
+
+    position: relative;
+}
+.bgmain{
+    background-color: rgb(218, 236, 251);
+    height: 100vh;
+}
+
+.banner{
+    position: relative;
+}
+
+.title {
+    font-size: 30px !important;
+    margin-top: 50px !important;
+    margin-bottom: 50px !important;
+    text-align: center;
+    font-weight:650 !important;
+    color: #003171 !important;
+    font-style: inherit !important;
+}
+
+.cardWrapper .card{
+    display: grid;
+    background: #ffffff;
+    border: 1px solid #ffffff;
+    box-shadow: none;
+    border-radius: 20px;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+.cardWrapper .card img{
+    display: grid;
+    margin-left: auto;
+    margin-right: auto;
+}
+.card-body p{
+    font-weight: bolder !important;
+    color:#5292cc !important;
+}
+
+.cardWrapper Button{
+    border-radius: 20px;
+    background: #ffffff;
+    border: 1px solid #ffffff;
+    width: 11rem;
+}
+
+.cardWrapper Button:hover{
+    color:#ffffff;
+    background: #ffffff;
+    border: 1px solid #ffffff;
+}
+
+.komitmen{
+    margin-top: 150px;
+    margin-bottom: 150px;
+}
+
+.komitmen p {
+    font-size: 20px;
+    font-weight:600;
+    margin-left: 50px;
+}
+
+.judulkomit{
+    font-size: 45px !important;
+    font-weight:650 !important;
+    color: #003171 !important;
+    font-style: inherit !important;
+}
+
+.komitfoto img{
+    border-radius: 20px;
+    margin-left: 100px;
+    margin-top: -50px;
+}
+
+
+@media screen and(min-width: 500px) {
+    
+}

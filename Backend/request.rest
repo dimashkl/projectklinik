@@ -1,0 +1,150 @@
+POST http://localhost:5000/profileklinik
+Content-Type: application/json
+
+{
+    "Name": "Klinik First Medika",
+    "Profile": "Klinik Layanan Umum, yang terbuka untuk seluruh warga masyarakat daerah Soreang dan sekitarnya. Tersedia berbagai Poli layanan kesehatan dan apotek yang cukup lengkap.",
+    "HariOPSatu": "Senin",
+    "HariOPDua": "Jum'at",
+    "JamOPSatu": "08.00",
+    "JamOPDua": "09.00",
+    "HariOPTiga": "Sabtu",
+    "HariOPEmpat": "Minggu",
+    "JamOPTiga": "10.00",
+    "JamOPEmpat": "08.00",
+    "Address": "Jl.Raya Banjaran No.99, Soreang, Kabupaten Bandung, Jawa Barat",
+    "Phone": "0871435768123",
+    "Email": "first.med@gmail.com",
+    "Poli": "Poli Umum",
+    "DetPoli": "Poli klinik layanan umum"
+}
+
+###
+//get all user
+GET http://localhost:5000/jadwaldokter
+
+###
+//get single user
+GET http://localhost:5000/users
+
+###
+POST http://localhost:5000/users
+Content-Type: application/json
+
+{
+    "firstname": "admin",
+    "lastname": "baru",
+    "email": "newadmin@gmail.com",
+    "password": "123456",
+    "confPassword": "123456"
+}
+
+###
+//update user
+PATCH http://localhost:5000/users/9fb5845e-8e22-4370-9150-91155f91bd13
+Content-Type: application/json
+
+{
+    "firstname": "Dimas",
+    "lastname": "HKL",
+    "email": "dimas@gmail.com",
+    "password": "1234567",
+    "confPassword": "1234567"
+}
+
+###
+//login user
+POST http://localhost:5000/login
+Content-Type: application/json
+
+{
+    "email": "dimas@gmail.com",
+    "password": "123456"
+}
+
+###
+//me
+GET http://localhost:5000/me
+
+
+###
+//logout
+DELETE http://localhost:5000/logout
+
+
+###
+//Get All Schedule
+GET http://localhost:5000/jadwaldokter
+
+###
+//Get One Schedule
+GET http://localhost:5000/jadwaldokter/2b54bedb-2af1-46c6-96ec-aa184339cd00
+
+###
+//post data schedule
+POST http://localhost:5000/schedules
+Content-Type: application/json
+
+{
+    "namaDokter": "Dr. Samuel",
+    "idDokter": "BN123456",
+    "hariPraktik": "Selasa",
+    "jamBuka": "10:00",
+    "jamTutup": "21:00"
+}
+
+###
+//update schedule
+PATCH  http://localhost:5000/schedules/40ef9a92-b48c-4051-8cdc-c5933558d0d2
+Content-Type: application/json
+
+{
+    "namaDokter": "Dr. Joshep",
+    "idDokter": "BN123456",
+    "hariPraktik": "Sabtu",
+    "jamBuka": "09:00",
+    "jamTutup": "13:00"
+}
+
+###
+//DELETE schedule
+DELETE http://localhost:5000/schedules/3f549bb1-d446-473d-82a8-bdd86d138740
+
+###
+//add form
+POST  http://localhost:5000/dynamics
+Content-Type: application/json
+
+{
+    "pertanyaan": "Jenis kelamin"
+}
+
+###
+//GET ALL form data
+GET http://localhost:5000/jadwaldokter
+
+###
+//GET SINGLE form data
+GET http://localhost:5000/dynamics/f1d89f60-00ea-4e90-94d9-bd421e9b3a4b
+
+
+###
+//UPDATE form data
+PATCH http://localhost:5000/dynamics/cddd1958-7ddc-4fe0-a9d4-28019005a61a
+Content-Type: application/json
+
+{
+    "pertanyaan": "Masukan Nama Anda UPDATED",
+    "tipePertanyaan": "Multiple Choice UPDATED"
+}
+
+
+###
+//DELETE form data
+DELETE http://localhost:5000/dynamics/f1d89f60-00ea-4e90-94d9-bd421e9b3a4b
+
+
+###
+//get single user
+GET http://localhost:5000/fasilitas/0f7a4cd7-be83-4faa-bcd2-58150a7204a3
+

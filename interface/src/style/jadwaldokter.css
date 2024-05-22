@@ -1,0 +1,122 @@
+.bodytableJadwal Button{
+  background: #FFFFFF;
+  border-color:#FFFFFF;
+}
+
+.dokterbutton{
+  position: relative;
+  display: flex;
+  width: 901px;
+  height: 150px;
+  top: 225px;
+  margin-top: 45px;
+  background: #FFFFFF;
+  box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.15);
+  border-radius: 20px;
+  border: none;
+  margin-left: 275px;
+}
+
+.collapsebar{
+  position: relative;
+  width: 500px;
+  height: 600px;
+}
+
+.collapseJadwal{
+  position: relative;
+  display: flex;
+  width: 901px;
+  height: 650px;
+  top: 225px;
+  margin-top: 30px;
+  background: #FFFFFF;
+  box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.15);
+  border-radius: 20px;
+  margin-left: 275px;
+}
+
+.collapsehari{
+  position: absolute;
+  width: 500px;
+  height: 400px;
+}
+
+.profiledokter img{
+  margin-top: 6.5px;
+  margin-left: 25px;
+  width: 100px;
+  height:135px;
+  border-radius: 5px;
+}
+
+.profiledokter h2{
+  position: absolute;
+  font-size: 25px;
+  font-weight: 600;
+  margin-left: 150px;
+  margin-top: 25px;
+}
+
+.profiledokter h3{
+  position: absolute;
+  margin-left: 150px;
+  margin-top: 65px;
+  font-size: 18px;
+
+}
+
+.haributton{
+  position: relative;
+  width: 140px;
+  height: 50px;
+  margin-top: 30px;
+  margin-left: 25px;
+
+}
+
+.jadwalbutton{
+  position: relative;
+  width: 140px;
+  height: 75px;
+  margin-top: 30px;
+}
+
+.jadwalbutton button{
+  border-radius: 10px;
+  box-shadow:  0px 4px 20px rgba(0, 0, 0, 0.15);
+  border: none;
+}
+
+.haributton button{
+  border-radius: 10px;
+  box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.15);
+  border: none;
+
+}
+
+.OpenJadwal{
+  position: absolute;
+  width: 500px;
+  margin-left: 52px;
+  margin-top: 100px;
+}
+
+.OpenJadwal h1{
+  font-size: 18px;
+  margin-bottom: 75px;
+
+}
+
+.siDesc {
+  width: 250px;
+}
+
+.button2 {
+  width: 150px;
+}
+
+.red-button {
+  background-color: red;
+  color: gray;
+}
